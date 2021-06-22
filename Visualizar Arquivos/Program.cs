@@ -24,6 +24,8 @@ namespace Visualizar_Arquivos
                         Console.WriteLine(arquivo);
                     }
 
+                    Console.WriteLine($"\r\n{arquivos.Length} arquivos encontrados.");
+
                     Console.WriteLine("Deseja utilizar novamente?");
                     Console.WriteLine("Por favor, insira \"S\" para Sim ou \"N\" para Não");
                     var resposta = Console.ReadLine();
